@@ -1,0 +1,26 @@
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Audio recordings
+recordings/
+*.mp3
+*.wav
+*.mp4
+*.m4a
+
+# Editor and temporary files
+.vscode/
+*.log
